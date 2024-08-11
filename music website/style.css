@@ -1,0 +1,298 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: border-box;
+
+}
+
+.music-website{
+    height: 100vh;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(20, 12, 66);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    z-index: 1;
+
+}
+.my-tunes{
+    /* display: block; */
+    margin-left: 80px;
+
+}
+.elements{
+    /* margin-right: 80px; */
+    display: block;
+    padding: 3rem;
+    margin-left: 20px;
+    word-spacing: 20px;
+}
+
+.hero-image{
+    background-image: url(hero_image.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.mytunes-elements{
+    color: white;
+    position: absolute;
+    top: 50%;
+    /* text-align: center; */
+    width: 700px;
+    
+        
+}
+#mytunes{
+   font-size:50px;
+   margin-bottom: 20px;
+   text-align: center;
+}
+
+.center-text{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight:600 ;
+}
+.long-text{
+    font-weight: 500;
+}
+
+.music-info{
+    height: 500px;
+    background-color: rgb(20, 12, 66);
+    color: white;
+   
+    
+
+}
+
+.music-elements{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    margin-bottom: 20px;
+}
+
+.music{
+    align-self: flex-end;
+    font-size: 30px;
+    font-weight: 100;
+    margin-right: 10px;
+}
+
+.ads{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.longtext{
+    display: flex;
+    justify-content: center;
+    
+}
+.context{
+    margin-top: 20px;
+    width: 1000px;
+    font-weight: 400;
+}
+#longtext{
+    font-weight:400 ;
+}
+.button{
+    display: flex;
+    justify-content: center;
+   
+}
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: rgb(255, 101, 45);
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+.ipad-iphone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 170px;
+}
+
+.series{
+    text-align: center;
+    position: relative;
+    bottom: 130px;
+    
+}
+
+.about{
+    text-align: center;
+    width: 800px;
+    
+}
+
+.series-related{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 100px;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 80px;
+   
+}
+#read-more{
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+    padding: 15px;
+    background-color: rgb(20, 12, 66);
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+.mac{
+    position: relative;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video{
+    width: 100%;
+    color: white;
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 12, 66);
+
+    
+}
+
+.video-content{
+    text-align: center;
+    width: 700px;
+    position: relative;
+    left: 25%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    
+    
+}
+
+#Lorem{
+    display: block;
+    margin-top: 30px;
+}
+
+.card{
+    margin-bottom: 50px;
+}
+
+.gift-card{
+    margin-top: 60px;
+    position: relative;
+    /* top: 10px; */
+    display: flex;
+    justify-content:space-around;
+}
+.card-content{
+    margin-top: 5px;
+    width: 600px;
+
+}
+
+#gift-card{
+    margin-bottom: 20px;
+}
+
+#about-card{
+    line-height: 30px;
+}
+
+#music-card{
+    margin-top: 20px;
+}
+hr{
+    margin-top: 20px;
+    border: 0.5px solid grey;
+    box-shadow: 0px 0px 2px;
+    
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 80px;
+   
+}
+#redeem{
+    width: 120px;
+    padding: 15px;
+    background-color: rgb(20, 12, 66);
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+.contact{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(20, 12, 66);
+    color: white;
+
+    
+}
+
+.shop{
+    margin-top: 80px;
+}
+
+ul{
+    list-style: none;
+    margin-top: 20px;
+
+}
+#line{
+    position: relative;
+    bottom: 10px;
+    width: 200px;
+}
+
+footer{
+    background-color: rgb(7, 3, 31);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+
+}
