@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border:border-box;
+}
+body{
+    background-color: grey;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    
+    
+}
+
+
+.content{
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    border: 6px solid black;
+    
+}
+.top-section{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+.image{
+background-image: url(kalam.jpeg);
+background-size: cover;
+max-height: 300px;
+min-height: 300px;
+min-width: 250px;
+max-width: 250px;
+border-radius: 50%;
+}
+.info{
+    margin-top: 220px;
+    
+}
+
+h1{
+    font-size: 45px;
+}
+h4{
+    text-align: end;
+}
+.Missile-man{
+    margin-top: 20px;
+}
+ul{
+    position: relative;
+    left: 30px;
+}
