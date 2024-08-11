@@ -1,0 +1,260 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+.restaurant{
+    height: auto;
+    margin: 0 auto;
+    max-width: 950px;
+}
+.nav-bar{
+    width: 950px;
+    height: 50px;
+    color: whiteS;
+    /* margin: 0 auto;
+    width: 850px; */
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 2px 1px grey ;
+    position: fixed;
+    z-index: 1;
+    
+}
+.menu-icon{
+    color: black;
+    display: flex;
+    align-items: flex-end;
+    font-size: 25px;
+}
+.logo-box{
+    height:50px ;
+    width: 150px;
+    background-image: url(logo.png);
+    background-size: cover;
+    background-position: center;
+}
+.hero-section{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.hero-image{
+    height: 450px;
+    width: 450px;
+    background-image: url(hero_image.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 60px;
+}
+
+.hero-content{
+    width: 300px;
+    position: relative;
+    top: 50px;
+    margin-top: 60px;
+    
+}
+
+.coupon{
+    height: 30px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(18, 163, 18);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+}
+h1{
+    font-size: 50px;
+    width: 320px;
+    position: relative;
+    top: 40px;
+}
+p{
+    width: 320px;
+    font-size: 13px;
+    position: relative;
+    top: 50px;
+}
+button{
+    font-size: 17px;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(253, 189, 70);
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 70px;
+}
+
+.bottom-content{
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+
+}
+
+.discount, .fresh , .delivery{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.discount:hover, .fresh:hover , .delivery:hover{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition:  0.5s ease;
+    
+}
+
+.span{
+    width: 150px;
+    font-size: 12px;
+    color: grey;
+    cursor: pointer;
+
+}
+#line{
+    color: 2px solid rgba(80, 64, 72, 0.36);
+}
+
+.menu{
+    height: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* background-color: pink; */
+
+}
+
+.menu-content{
+    height: 150px;
+    width: 400px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    margin-top: 30px;
+
+}
+
+
+.menu-button{
+    height: 50px;
+    width: 150px;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    left: 120px;
+
+
+}
+
+.explore{
+    position: relative;
+    left: 50px;
+    font-size: 39px;
+    top: 20px;
+    font-weight:200;
+}
+
+.items{
+    margin-top: 30px;
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+    "one one three "
+    "one one seven "
+    "four five seven ";
+    cursor: pointer;
+    
+}
+
+.image1{
+    grid-area: one;
+    margin-left: 50px;
+}
+.image3{
+    grid-area: three; 
+}.image4{
+    grid-area: four;
+    margin-left: 50px;
+}.image5{
+    grid-area: five;
+}.image7{
+    grid-area: seven;
+}
+
+footer{
+    margin-top: 80px;
+    height: 300px;
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.company-logo{
+    height:50px ;
+    width: 150px;
+    background-image: url(logo.png);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    
+}
+.main , .support{
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    position: relative;
+    top: 20px;
+}
+li{
+    color: rgb(88, 88, 88);
+}
+.ul-support{
+    position: relative;
+    bottom: 10px;
+}
+
+#support{
+    position: relative;
+    bottom: 11px;
+}
+
+#join{
+    position: relative;
+    bottom: 15px;
+}
+
+#follow-us{
+    position: relative;
+    top: 10px;
+}
+
+.social-icons{
+    position: relative;
+    top: 20px;
+    cursor: pointer;
+}
