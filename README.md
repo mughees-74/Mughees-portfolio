@@ -1,2 +1,1 @@
-# Mughees-portfolio
-my portfolio projects
+Basic projects
